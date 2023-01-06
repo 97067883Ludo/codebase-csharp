@@ -10,9 +10,10 @@
         string? input = Console.ReadLine();
 
         if (!int.TryParse(input, out _)) {
-            
+            Console.WriteLine(input);
             switch (input)
             {
+                case null:
                 case "exit":
                     Console.WriteLine("Bye!");
                     return 0;
