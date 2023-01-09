@@ -3,10 +3,8 @@ This is an implementation of Deltion College's [codebase](https://github.com/del
 
 ### Basic:
 1. [Array](https://github.com/deltioncodebase/codebase/blob/main/b_array.pdf) - *finished on 4-1-2023*
-2. [Circle](https://github.com/deltioncodebase/codebase/blob/main/b_cirkel.pdf) *- finished on 5-1-2023*
-3. 
-[Deelbaar](https://github.com/deltioncodebase/codebase/blob/main/b_deelbaar.pdf) 
-*- Finished on 9-1-2023 * 
+2. [Circle](https://github.com/deltioncodebase/codebase/blob/main/b_cirkel.pdf) - *finished on 5-1-2023*
+3. [Deelbaar](https://github.com/deltioncodebase/codebase/blob/main/b_deelbaar.pdf) - *Finished on 9-1-2023* 
 4. [Geheimschrijver](https://github.com/deltioncodebase/codebase/blob/main/b_geheimschrijver.pdf)
 5. [Getallenreeks](https://github.com/deltioncodebase/codebase/blob/main/b_getallenreeks.pdf)
 6. [Hoofdletters](https://github.com/deltioncodebase/codebase/blob/main/b_hoofdletters.pdf)
