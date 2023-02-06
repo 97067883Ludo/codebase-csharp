@@ -1,4 +1,6 @@
-﻿namespace geheimschrijver 
+﻿using System.Text;
+
+namespace geheimschrijver 
 {
     class geheimschrijver 
     {
@@ -48,17 +50,18 @@
         }
 
         private static void morseCodeEncode(Dictionary<char, string> morseCode, string input) {
-            string inputTranslatedToMorseCode = "";
+            StringBuilder sb = new StringBuilder();
 
             for(int index = 0; index < input.Length; index++) {
                 if(morseCode.ContainsKey(input[index])){
-                     inputTranslatedToMorseCode += morseCode[input[index]];
+
+                     sb.Append(morseCode[input[index]]);
                 } else {
-                    inputTranslatedToMorseCode += input[index];
+                    sb.Append(input[index]);
                 }
             }
-            Console.WriteLine(inputTranslatedToMorseCode);
-
+            Console.WriteLine(sb.ToString());
+            
         }
     }
 }
